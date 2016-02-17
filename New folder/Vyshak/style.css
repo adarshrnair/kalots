@@ -1,0 +1,187 @@
+body {
+    background-color: #009999;
+}
+
+h1 {
+    color: #336699;
+    margin-left: 60px;
+    margin-top	:40px;
+    text-align :center;
+   
+}
+h3	 {
+    color: #336699;
+    margin-top	:40px;
+    text-align :center;
+
+}
+p
+{
+    color: #336699;
+    margin-top	:40px;
+    margin-left :170px;
+    margin-right:60px;
+    margin-bottom: 60px;
+    text-align :left;
+}
+td
+{
+	text-align :center;
+	color : red;
+	background-color :#99FFCC;
+    border-radius: 10px;
+}
+table
+{
+text-align :center;
+ margin-left:150px;
+ background-color: #99FFCC;
+ width:1000px;
+  border-radius: 15px;
+}
+
+#b1
+{
+     margin-left:100px;
+     margin-top	:40px;
+    text-align :center;
+    border-radius: 25px;
+    background:#003300;
+    padding: 10px; 
+    width: 90px;
+    height: 20px;
+}
+#b2
+{
+     margin-left:50px;
+     margin-right:50px;
+     margin-top	:40px;
+    text-align :center;
+    border-radius: 25px;
+    background:#003300;
+    padding: 40px; 
+    width: 120px;
+    height: 20px;
+}
+#m
+{
+	 margin-left:100px;
+     margin-top	:20px;
+    text-align :center;
+    border-radius: 170px;
+    background: #009999;
+    padding: 10px; 
+    width: 300px;
+    height: 190px;
+}
+
+a
+{
+
+}
+h6
+{
+    text-align :center;
+    margin-top	:180px;
+    border-radius: 180px;
+    background: #009999;
+    padding: 20px; 
+    width: 45px;
+    height: 45px;
+    color:white;
+
+}
+#Submit
+{
+   margin-left:30px;
+    text-align :center;
+    border-radius: 15px;
+    padding: 11px; 
+    width: 100px;
+    height: 40px;
+    color :azure;
+    background: #009999; 
+}
+#b4
+{
+    margin-left:30px;
+    text-align :center;
+    border-radius: 15px;
+    padding: 11px; 
+    width: 800px;
+    height: 50px;
+    color :azure;
+    background: #009999; 
+}
+#logg
+{
+    
+    text-align :center;
+    border-radius: 15px;
+    padding: 11px; 
+    width: 800px;
+    height: 50px;
+    color :blanchedalmond;
+    background: darkgreen; 
+}
+#log
+{
+            margin-left:30px;
+    text-align :center;
+    border-radius: 15px;
+    padding: 11px; 
+    width: 800px;
+    height: 50px;
+    color:azure;
+    background: crimson; 
+
+}
+#log1
+{
+    
+    text-align :center;
+    border-radius: 15px;
+    padding: 11px; 
+    width: 300px;
+    height: 50px;
+    color:floralwhite;
+    background:darkgreen; 
+
+}
+#logs
+{
+            margin-left:30px;
+    text-align :center;
+    border-radius: 15px;
+    padding: 11px; 
+    width: 100px;
+    height: 40px;
+    color:azure;
+    background: crimson; 
+
+}
+
+img
+{
+	margin-left:10px;
+    margin-top	:20px;
+    text-align :center;
+    border-radius: 10px;
+    background: #009999;
+    padding: 0px; 
+    width: 600px;
+    height: 390px;
+}
+
+h2
+{
+	text-align :center;
+    margin-top	:180px;
+    background: #009999;
+    width: 45px;
+    height: 45px;
+    color:white;
+
+}
+
+
