@@ -65,6 +65,13 @@ li a:hover {
 <title>Kalotsavam</title>
 </head>
 <body>
+<?php
+session_start();
+if(isset($_SESSION["user"]))
+{
+?>
+
+
 <form name="f1" method="POST" action="regsolo.php">
 <center><h1>On Stage Solo</h1></center>
        <table border=1>
@@ -514,5 +521,14 @@ li a:hover {
 	</table><br><br><br><center>
 <input type="submit" value="register"></center>
 </form>
+
+<?php
+}
+else
+{?>
+<h1><a href="../login.html">Log in first</a></h1>
+<?php
+}
+?>
 </body>
 </html>

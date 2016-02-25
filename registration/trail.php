@@ -81,7 +81,7 @@ if(isset($_SESSION["user"]))
 <br>
 
 <center>
-<a href="solo.html" target="iframe_a"><img src="../images/thYIWBYD2F.jpg" height="80"></a>
+<a href="solo.php" target="iframe_a"><img src="../images/thYIWBYD2F.jpg" height="80"></a>
 <a href="event.php" target="iframe_a"><img src="../images/event.jpg" height="80"></a>
 <?php
 }
