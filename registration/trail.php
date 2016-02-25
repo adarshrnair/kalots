@@ -62,25 +62,34 @@ li a:hover {
     
 }
    </style>
-<title>Indian Army</title>
+<title>Kalotsavam</title>
 </head>
 <body>
+<?php
+session_start();
+if(isset($_SESSION["user"]))
+{
+?>
         <div id="sam" >
-        <h> p</h>
-<center><img src="C:\wamp\www\kalots\images\logo.png" style="display:inline;border-radius: 150px; " alt="logo" width="300" height="230">
+        <h> </h>
+<center><img src="../images/logo.png" style="display:inline;border-radius: 150px; " alt="logo" width="300" height="230">
         
     </div>   
     
-<iframe width="100%" height="720px" name="iframe_a"></iframe>
-<center> <a href="account_settings.html" target="iframe_a">
+<iframe src="show.php" width="100%" height="720px" name="iframe_a"></iframe>
+<center> <a href="event.php" target="iframe_a">
 <br>
 
 <center>
-<a href="" target="iframe_a"><img src="images/thYIWBYD2F.jpg" height="80"></a>
-<a href="" target="iframe_a"><img src="images/event.jpg" height="80"></a>
-
-
-
-
+<a href="solo.html" target="iframe_a"><img src="../images/thYIWBYD2F.jpg" height="80"></a>
+<a href="event.php" target="iframe_a"><img src="../images/event.jpg" height="80"></a>
+<?php
+}
+else
+{?>
+<h1><a href="../login.html">Log in first</a></h1>
+<?php
+}
+?>
 </body>
 </html>
